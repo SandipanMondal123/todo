@@ -5,6 +5,8 @@ import './App.css';
 function App() {
   const [itemText, setItemText] = useState('');
   const [listItems, setListItems] = useState([]);
+  
+  
   const [isUpdating, setIsUpdating] = useState('');
   const [updateItemText, setUpdateItemText] = useState('');
 
@@ -58,7 +60,7 @@ function App() {
   }
   const updateItemBox = () => (
     <form className="update-form" onSubmit={(e)=>{updateItem(e)}} >
-      <input className="update-new-input" type="text" placeholder="New Item" onChange={e=>{setUpdateItemText(e.target.value)}} value={updateItemText} />
+      <input maxLength={60} className="update-new-input" type="text" placeholder="New Item" onChange={e=>{setUpdateItemText(e.target.value)}} value={updateItemText} />
       <button className="update-new-btn" type="submit">Update</button>
     </form>
   )
