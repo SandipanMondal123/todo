@@ -60,7 +60,7 @@ function App() {
   }
   const updateItemBox = () => (
     <form className="update-form" onSubmit={(e)=>{updateItem(e)}} >
-      <input maxLength={60} className="update-new-input" type="text" placeholder="New Item" onChange={e=>{setUpdateItemText(e.target.value)}} value={updateItemText} />
+      <input maxLength={42} className="update-new-input" type="text" placeholder="New Item" onChange={e=>{setUpdateItemText(e.target.value)}} value={updateItemText} />
       <button className="update-new-btn" type="submit">Update</button>
     </form>
   )
@@ -69,7 +69,7 @@ function App() {
     <div className='App grow bw2 shadow-5' style = {{background: "#f4f1de", color: "#e07a5f"}}>
       <h1>Sandipan's MERN Todo App!😁</h1>
       <form className="form" onSubmit={e => addItem(e)}>
-        <input type="text" placeholder='Add Todo Item' onChange={e => {setItemText(e.target.value)} } value={itemText} />
+        <input type="text" maxLength={42} placeholder='Add Todo Item' onChange={e => {setItemText(e.target.value)} } value={itemText} />
         <button type="submit">Add</button>
       </form>
       <div className="todo-listItems">
