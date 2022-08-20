@@ -3,4 +3,4 @@
 2. npm install
 3. npm start
 
-Full Stack MERN (MongoDB + Express + ReactJS + NodeJS) Todo App that I made. Hope you enjoy!
+Full Stack MERN (MongoDB + Express + ReactJS + NodeJS) CRUD Todo App that I made. Hope you enjoy!
