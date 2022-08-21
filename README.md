@@ -5,7 +5,7 @@
 
 Full Stack **MERN (MongoDB + Express + ReactJS + NodeJS)** CRUD Todo App that I made. Hope you enjoy! 
 
-I'm currently expanding on this project by adding user authentication and JWT for more security. I am also going to use Redux for state management. 
+I'm currently expanding on this project by adding user authentication and JWT for more security. I am also going to use Redux . 
 
 As a result, I will deploy the app once I finish!
 
