@@ -7,7 +7,7 @@ Full Stack **MERN (MongoDB + Express + ReactJS + NodeJS)** CRUD Todo App that I 
 
 I'm currently expanding on this project by adding user authentication and JWT for more security. I am also going to use Redux . 
 
-As a result, I will deploy the app once I finish!
+As a result, I will deploy the app once I finish the additions!
 
 Make sure to add your own **MongoDB connection string** where DB_CONNECT is used in the server.js file in the backend folder!
 
